@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/carlosgettier/venturing#readme",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
   }
 }
