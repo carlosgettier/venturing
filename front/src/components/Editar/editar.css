@@ -1,0 +1,25 @@
+.contenedorEdit h1 {
+  text-align: center;
+}
+.contenedorEdit .cargaEdit {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cargaEdit {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.cargaEdit input {
+  width: 80%;
+}
+.cargaEdit label {
+  margin: 2%;
+}
+.cargaEdit button {
+  margin: 4%;
+}

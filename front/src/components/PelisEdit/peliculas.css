@@ -1,0 +1,15 @@
+.links {
+  background-color: yellow;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1% 0;
+  text-decoration: none;
+}
+.navlink {
+  text-decoration: none;
+  color: #000;
+}
+.vistas:hover {
+  background-color: yellowgreen;
+}

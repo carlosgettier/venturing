@@ -1,0 +1,39 @@
+.contenido h1 {
+  text-align: center;
+}
+.contenido .carga {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carga {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 20%;
+  text-align: center;
+  background-color: whitesmoke;
+}
+.carga input {
+  width: 80%;
+}
+.carga label {
+  margin: 2%;
+}
+.carga button {
+  margin: 4%;
+}
+.vistas {
+  background-color: whitesmoke;
+  width: 90%;
+  margin: 2%;
+}
+.vistas p {
+  margin-left: 4%;
+}
+.movie {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

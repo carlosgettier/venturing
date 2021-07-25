@@ -1,0 +1,12 @@
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.navs {
+  text-decoration: none;
+  color: black;
+}
+.navs:hover {
+  background-color: yellow;
+}

@@ -1,0 +1,17 @@
+.ingreso {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 150px;
+  background-color: whitesmoke;
+  justify-content: space-around;
+}
+.ingreso button {
+  width: 20%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ingreso input {
+  margin-left: auto;
+  margin-right: auto;
+}
