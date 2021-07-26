@@ -1,11 +1,11 @@
 .contenedorEdit h1 {
   text-align: center;
 }
-.contenedorEdit .cargaEdit {
-  margin-left: auto;
-  margin-right: auto;
+.formularios {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
-
 .cargaEdit {
   display: flex;
   flex-direction: column;
@@ -17,9 +17,27 @@
 .cargaEdit input {
   width: 80%;
 }
+
 .cargaEdit label {
   margin: 2%;
 }
 .cargaEdit button {
   margin: 4%;
+}
+.describir {
+  height: 100px;
+  text-align: start;
+}
+.info {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  align-items: center;
+}
+.info input {
+  width: 80%;
+}
+.info label {
+  margin: 2%;
 }

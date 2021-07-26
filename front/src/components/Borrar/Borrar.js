@@ -1,27 +1,25 @@
 import React from 'react'
 import { useParams } from 'react-router-dom'
 import { useEffect, useState } from 'react'
-import { Redirect } from "react-router-dom"
+import { useHistory } from "react-router-dom"
 import './borrar.css'
 import axios from 'axios'
 export const Borrar = () => {
 
-
+    //-- parametro de url que se va a tomar para borrar--//
     const { id } = useParams()
 
-
-
+    const historia = useHistory()
+    //-- pedido delete por axios para borrar datos--/
     const borrar = (e) => {
         e.preventDefault()
         let result = window.confirm("estas por borrar un dato definitivamente")
         if (result == true) {
             const res = axios.delete(`http://localhost:3001/api/peliculas/${id}`)
                 .then(res => console.log(res));
-            <Redirect to="/" />
-
         }
 
-
+        historia.push("/")
     }
 
 

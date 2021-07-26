@@ -10,10 +10,10 @@ export const NavBar = () => {
                 INICIO
             </Link>
             <Link to="/administrar" className="navs">
-                ADMINISTRACION
+                AGREGAR
             </Link>
             <Link to="/agregar" className="navs">
-                AGREGAR
+                ADMINISTRACION
             </Link>
         </div>
     )

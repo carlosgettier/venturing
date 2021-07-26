@@ -1,4 +1,11 @@
+.ingresos h3 {
+  text-align: center;
+}
+
 .ingreso {
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   flex-direction: column;
   width: 30%;

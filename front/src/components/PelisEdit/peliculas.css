@@ -1,3 +1,7 @@
+.vistas p {
+  margin: 2%;
+}
+
 .links {
   background-color: yellow;
   display: flex;

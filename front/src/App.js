@@ -13,6 +13,7 @@ import { Borrar } from "./components/Borrar/Borrar";
 import { Editar } from "./components/Editar/Editar";
 import { NavBar } from "./components/NavBar/NavBar";
 
+
 function App() {
   return (
     <Router>

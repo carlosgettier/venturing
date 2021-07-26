@@ -2,6 +2,7 @@ import React from 'react'
 import './agregar.css'
 import { useState, useEffect } from 'react'
 import { PelisEdit } from '../PelisEdit/PelisEdit'
+import { useHistory } from 'react-router-dom'
 import axios from 'axios'
 
 
@@ -9,6 +10,9 @@ import axios from 'axios'
 
 
 export const Agregar = () => {
+
+    const historia = useHistory()
+
 
     const [base, setbase] = useState([])
     useEffect(async () => {
@@ -30,6 +34,7 @@ export const Agregar = () => {
             [e.target.name]: e.target.value
         })
     }
+
     const nuevo = (e) => {
         e.preventDefault()
         axios({
@@ -41,6 +46,8 @@ export const Agregar = () => {
                 estreno: crear.estreno
             }
         }).then(res => console.log(res))
+
+        historia.push("/")
     }
 
     return (
@@ -59,7 +66,7 @@ export const Agregar = () => {
                 <input type="text"
                     onChange={handleInputChange}
                     name="estreno" />
-                <button type="submit">agregar</button>
+                <button type="submit">Agregar</button>
             </form>
             <div className="movie">
                 {base.map((film, i) => {
